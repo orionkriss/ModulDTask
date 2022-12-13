@@ -3,6 +3,7 @@ import "./App.css";
 import "./components/orionComponents";
 import MainContentOrion from "./components/orionComponents";
 import BeanInfo from "./components/ContentComp1";
+import StateButton from "./components/StateButton";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <body>
         <MainContentOrion />
         <BeanInfo />
+        <StateButton />
       </body>
     </div>
   );
